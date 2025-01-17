@@ -10,7 +10,7 @@ namespace FlowersAIV.Controller
 {
     public class LlamaService
     {
-        private readonly string baseUlr = "http://www.projetfleurs.com:11434/api/chat";
+        private readonly string baseUlr = "http://127.0.0.1:11434/api/chat";
         private readonly HttpClient _httpClient;
         PlantInfo plantInfo;
 
